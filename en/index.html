@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple PDF Scanner App – Fast, Private & No Subscription</title>
+    <meta name="description" content="Scan documents quickly and easily with your iPhone. Everything happens locally on your device for total privacy. Say no to subscriptions and data collection.">
+    
+    <!-- SEO tags for multiple languages (replace domain with your own when publishing) -->
+    <link rel="alternate" hreflang="sv" href="https://simplepdfscanner.se/sv/" />
+    <link rel="alternate" hreflang="en" href="https://simplepdfscanner.se/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://simplepdfscanner.se/en/" />
+
+    <!-- Link to your compiled CSS. The path is changed to go up one level. -->
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white sticky top-0 z-50 shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-900 flex items-center">
+                <img src="../images/launchlogo.png" alt="Simple PDF Scanner Logo" class="h-8 w-auto mr-3">
+                <span class="hidden sm:inline">Simple PDF Scanner</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-600 hover:text-blue-600">Features</a>
+                <a href="#screenshots" class="text-gray-600 hover:text-blue-600">Screenshots</a>
+                <a href="#pricing" class="text-gray-600 hover:text-blue-600">Pricing</a>
+                <a href="#privacy" class="text-gray-600 hover:text-blue-600">Privacy</a>
+                <a href="https://apps.apple.com/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="btn-primary text-sm py-2 px-4">Download</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#features" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Features</a>
+            <a href="#screenshots" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Screenshots</a>
+            <a href="#pricing" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Pricing</a>
+            <a href="#privacy" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Privacy</a>
+            <a href="https://apps.apple.com/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" class="block py-3 px-4 text-center bg-blue-600 text-white font-semibold">Download</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-gray-900 text-white">
+            <div class="container mx-auto px-6 py-24 sm:py-32 text-center">
+                <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+                    The fast, simple, and private document scanner for your iPhone.
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-gray-300">
+                    Say no to subscriptions and data collection. Scan, edit, and share PDFs securely – right on your device.
+                </p>
+                <div class="mt-10">
+                    <a href="https://apps.apple.com/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="btn-primary text-lg">
+                        Download on the App Store
+                    </a>
+                </div>
+                <div class="mt-12">
+                    <img src="../images/01t.png" alt="Simple PDF Scanner App on an iPhone" class="mx-auto rounded-2xl shadow-2xl max-h-[600px] w-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- "Why" Section -->
+        <section id="why" class="py-16 sm:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold leading-7 text-blue-600">Our Philosophy</h2>
+                    <p class="section-title">Built to be smooth, secure, and fair.</p>
+                    <p class="section-subtitle max-w-3xl mx-auto">
+                        In a world where many apps demand expensive subscriptions and upload your sensitive documents to the cloud, we offer an honest alternative. You should have full control.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-16 sm:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Everything you need, and a little more</h2>
+                    <p class="section-subtitle">Start for free and upgrade whenever you want with a simple one-time purchase.</p>
+                </div>
+
+                <!-- Free Features -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Free Features – Perfect for getting started</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Feature Card 1 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Lightning-fast scanning</h4>
+                            <p class="text-gray-600">Create high-quality PDFs from one or more pages in seconds.</p>
+                        </div>
+                        <!-- Feature Card 2 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Smart image editing</h4>
+                            <p class="text-gray-600">Adjust color, grayscale, or black & white. Rotate and crop for a perfect result.</p>
+                        </div>
+                        <!-- Feature Card 3 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Easy PDF sharing</h4>
+                            <p class="text-gray-600">Send your finished PDFs directly via email from the app.</p>
+                        </div>
+                        <!-- Feature Card 4 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Optimize for printing</h4>
+                            <p class="text-gray-600">Save your documents in standard A4 format, perfect for printing.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRO Features -->
+                <div>
+                    <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Go PRO – A one-time purchase for advanced features</h3>
+                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- PRO Feature Card 1 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Searchable PDFs (OCR)</h4>
+                            <p class="text-gray-600">Make text in your scanned documents searchable with our powerful OCR engine.</p>
+                        </div>
+                        <!-- PRO Feature Card 2 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Import from photos</h4>
+                            <p class="text-gray-600">Turn existing photos from your library into professional PDFs.</p>
+                        </div>
+                        <!-- PRO Feature Card 3 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Password protection</h4>
+                            <p class="text-gray-600">Add an extra layer of security to your most sensitive documents.</p>
+                        </div>
+                        <!-- PRO Feature Card 4 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Advanced sharing</h4>
+                            <p class="text-gray-600">Share to any app, like iCloud, Dropbox, messaging apps, and more.</p>
+                        </div>
+                        <!-- PRO Feature Card 6 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Custom filenames</h4>
+                            <p class="text-gray-600">Organize your files better with your own, clear filenames.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section id="screenshots" class="py-16 sm:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">See the app in action</h2>
+                    <p class="section-subtitle">Explore the powerful and easy-to-use features.</p>
+                </div>
+                <div class="flex overflow-x-auto space-x-4 sm:space-x-8 pb-4 -mx-6 px-6">
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="../images/01.png" alt="Screenshot of the app's main view" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="../images/02.png" alt="Screenshot showing editing" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="../images/03.png" alt="Screenshot showing sharing options" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="../images/04.png" alt="Screenshot of the OCR feature" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="../images/05.png" alt="Screenshot of the document collection" class="rounded-xl shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Section -->
+        <section id="pricing" class="py-16 sm:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">A simple and fair price</h2>
+                    <p class="section-subtitle">No subscriptions. No hidden costs. Ever.</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+                    <!-- Free Plan -->
+                    <div class="border border-gray-200 rounded-2xl p-8 flex flex-col">
+                        <h3 class="text-2xl font-semibold">Standard</h3>
+                        <p class="mt-4 text-gray-600">All the basic features you need to scan and share.</p>
+                        <p class="mt-6 text-4xl font-bold">Free</p>
+                        <ul class="mt-8 space-y-3 text-gray-600 flex-grow">
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Lightning-fast scanning</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Image editing</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Share via email</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Optimize for printing (A4)</li>
+                        </ul>
+                        <a href="https://apps.apple.com/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="mt-8 block w-full text-center bg-white border border-gray-300 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors">Download</a>
+                    </div>
+
+                    <!-- PRO Plan -->
+                    <div class="border-2 border-blue-600 rounded-2xl p-8 relative flex flex-col">
+                        <p class="absolute top-0 -translate-y-1/2 bg-blue-600 text-white px-3 py-1 text-sm font-semibold rounded-full">Most popular</p>
+                        <h3 class="text-2xl font-semibold">PRO</h3>
+                        <p class="mt-4 text-gray-600">Unlock all advanced features forever.</p>
+                        <p class="mt-6 text-4xl font-bold">$7.99 <span class="text-lg font-normal text-gray-500">/ one-time purchase</span></p>
+                        <ul class="mt-8 space-y-3 text-gray-600 flex-grow">
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Everything in Standard, plus:</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Searchable PDFs (OCR)</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Password protection</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Advanced sharing</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>...and much more.</li>
+                        </ul>
+                        <a href="https://apps.apple.com/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="mt-8 block w-full btn-primary">Buy the PRO version</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Section -->
+        <section id="privacy" class="py-16 sm:py-24">
+            <div class="container mx-auto px-6">
+                <div class="max-w-3xl mx-auto text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.286zm0 13.036h.008v.008h-.008v-.008z" />
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Your privacy is not a feature. <br>It's the foundation of the entire app.</h2>
+                    <p class="section-subtitle">
+                        All data processing – from scanning to PDF creation – happens exclusively locally on your iPhone. We do not collect, see, or ever store your documents.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="bg-gray-900">
+            <div class="container mx-auto px-6 py-16 sm:py-24 text-center">
+                <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                    Ready to start scanning?
+                </h2>
+                <p class="mt-4 text-lg leading-8 text-gray-300">
+                    Download Simple PDF Scanner today and experience the difference.
+                </p>
+                <div class="mt-10">
+                    <a href="https://apps.apple.com/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="btn-primary text-lg">
+                        Get on the App Store
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <p class="mb-4">&copy; 2025 <a href="https://mpktec.se" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">MPK Tec AB</a>. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="https://mpktec.se/privacy/simplepdfscanner/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Privacy Policy</a>
+                <span>&middot;</span>
+                <button data-modal-open="#terms-modal" class="hover:text-white transition-colors">Terms of Use</button>
+            </div>
+            <div class="mt-4 text-sm">
+                <a href="../sv/" class="hover:text-white transition-colors">Svenska</a>
+                <span class="mx-2">|</span>
+                <span class="font-semibold text-white">English</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Privacy Policy Modal -->
+    <!-- Terms of Use Modal -->
+    <div id="terms-modal" class="modal hidden fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] flex flex-col">
+            <div class="p-4 sm:p-6 border-b flex justify-between items-center">
+                <h3 class="text-xl sm:text-2xl font-semibold">Terms of Use</h3>
+                <button data-modal-close class="text-gray-400 hover:text-gray-600 text-3xl leading-none font-bold">&times;</button>
+            </div>
+            <div class="p-4 sm:p-6 overflow-y-auto">
+                <p>Here you can insert your full terms of use. Describe the rules for using the app, limitations of liability, information about the PRO purchase, etc.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
+            // Modal handling
+            const openModalButtons = document.querySelectorAll('[data-modal-open]');
+            const closeModalButtons = document.querySelectorAll('[data-modal-close]');
+
+            const openModal = (modal) => modal && modal.classList.remove('hidden');
+            const closeModal = (modal) => modal && modal.classList.add('hidden');
+
+            openModalButtons.forEach(button => button.addEventListener('click', () => openModal(document.querySelector(button.dataset.modalOpen))));
+            closeModalButtons.forEach(button => button.addEventListener('click', () => closeModal(button.closest('.modal'))));
+            document.addEventListener('keydown', e => e.key === 'Escape' && document.querySelectorAll('.modal:not(.hidden)').forEach(closeModal));
+        });
+    </script>
+
+</body>
+</html>

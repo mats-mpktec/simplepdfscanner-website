@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "serve": "serve"
   },
   "keywords": [],
-  "author": "MPKtec",
+  "author": "MPK Tec AB",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^4.0.0",
-    "@tailwindcss/cli": "^4.0.0"
+    "@tailwindcss/cli": "^4.0.0",
+    "serve": "^14.2.4",
+    "tailwindcss": "^4.0.0"
   }
 }
