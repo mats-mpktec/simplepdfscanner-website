@@ -1,0 +1,22 @@
+# Dependencies
+# Denna mapp innehåller alla paket du installerat med npm och kan återskapas med `npm install`.
+# Den ska i princip aldrig checkas in i Git.
+/node_modules
+
+# Build-filer
+# Mappen `dist` innehåller den färdigbyggda CSS-filen.
+# Det är god praxis att inte checka in byggda filer. Läs förklaringen nedan för hur du publicerar.
+# /dist
+
+# Loggar
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+
+# Systemfiler från olika operativsystem
+.DS_Store
+Thumbs.db
+
+# Filer och mappar från kodredigerare (VS Code, JetBrains etc.)
+.vscode/
+.idea/

@@ -1,0 +1,17 @@
+{
+  "name": "simplepdfscanner-website",
+  "version": "1.0.0",
+  "description": "Landing page for Simple PDF Scanner App",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "MPKtec",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/cli": "^4.0.0"
+  }
+}

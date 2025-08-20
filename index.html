@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="sv" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple PDF Scanner App – Snabb, privat & utan prenumeration</title>
+    <meta name="description" content="Skanna dokument snabbt och enkelt med din iPhone. Allt sker lokalt på din enhet för total integritet. Säg nej till prenumerationer och datainsamling.">
+    
+    <!-- Länk till din kompilerade CSS -->
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white sticky top-0 z-50 shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-900 flex items-center">
+                <img src="images/launchlogo.png" alt="Simple PDF Scanner Logotyp" class="h-8 w-auto mr-3">
+                <span class="hidden sm:inline">Simple PDF Scanner</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-600 hover:text-blue-600">Funktioner</a>
+                <a href="#screenshots" class="text-gray-600 hover:text-blue-600">Skärmdumpar</a>
+                <a href="#pricing" class="text-gray-600 hover:text-blue-600">Pris</a>
+                <a href="#privacy" class="text-gray-600 hover:text-blue-600">Integritet</a>
+                <a href="https://apps.apple.com/se/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="btn-primary text-sm py-2 px-4">Ladda ner</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#features" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Funktioner</a>
+            <a href="#screenshots" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Skärmdumpar</a>
+            <a href="#pricing" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Pris</a>
+            <a href="#privacy" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Integritet</a>
+            <a href="https://apps.apple.com/se/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" class="block py-3 px-4 text-center bg-blue-600 text-white font-semibold">Ladda ner</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-gray-900 text-white">
+            <div class="container mx-auto px-6 py-24 sm:py-32 text-center">
+                <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+                    Den snabba, enkla och privata dokumentskannern för din iPhone.
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-gray-300">
+                    Säg nej till prenumerationer och datainsamling. Skanna, redigera och dela PDF:er säkert – direkt på din enhet.
+                </p>
+                <div class="mt-10">
+                    <a href="https://apps.apple.com/se/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="btn-primary text-lg">
+                        Ladda ner från App Store
+                    </a>
+                </div>
+                <div class="mt-12">
+                    <img src="images/01.png" alt="Simple PDF Scanner App på en iPhone" class="mx-auto rounded-2xl shadow-2xl max-h-[600px] w-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- "Why" Section -->
+        <section id="why" class="py-16 sm:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold leading-7 text-blue-600">Vår Filosofi</h2>
+                    <p class="section-title">Byggd för att vara smidig, säker och rättvis.</p>
+                    <p class="section-subtitle max-w-3xl mx-auto">
+                        I en värld där många appar kräver dyra prenumerationer och laddar upp dina känsliga dokument till molnet, erbjuder vi ett ärligt alternativ. Du ska ha full kontroll.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-16 sm:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Allt du behöver, och lite till</h2>
+                    <p class="section-subtitle">Börja gratis och uppgradera när du vill med ett enkelt engångsköp.</p>
+                </div>
+
+                <!-- Free Features -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Gratisfunktioner – Perfekt för att komma igång</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Feature Card 1 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Blixtsnabb skanning</h4>
+                            <p class="text-gray-600">Skapa högkvalitativa PDF-filer från en eller flera sidor på sekunder.</p>
+                        </div>
+                        <!-- Feature Card 2 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Smart bildredigering</h4>
+                            <p class="text-gray-600">Justera färg, gråskala eller svartvitt. Rotera och beskära för perfekt resultat.</p>
+                        </div>
+                        <!-- Feature Card 3 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Enkel PDF-delning</h4>
+                            <p class="text-gray-600">Skicka dina färdiga PDF-filer direkt via e-post från appen.</p>
+                        </div>
+                        <!-- Feature Card 4 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Optimera för utskrift</h4>
+                            <p class="text-gray-600">Spara dina dokument i standard A4-format, perfekt för utskrift.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRO Features -->
+                <div>
+                    <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Gå PRO – Ett engångsköp för avancerade funktioner</h3>
+                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- PRO Feature Card 1 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Sökbara PDF:er (OCR)</h4>
+                            <p class="text-gray-600">Gör text i dina skannade dokument sökbar med vår kraftfulla OCR-motor.</p>
+                        </div>
+                        <!-- PRO Feature Card 2 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Importera från bilder</h4>
+                            <p class="text-gray-600">Gör om befintliga bilder från ditt bibliotek till professionella PDF-filer.</p>
+                        </div>
+                        <!-- PRO Feature Card 3 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Lösenordsskydd</h4>
+                            <p class="text-gray-600">Lägg till ett extra lager av säkerhet för dina mest känsliga dokument.</p>
+                        </div>
+                        <!-- PRO Feature Card 4 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Avancerad delning</h4>
+                            <p class="text-gray-600">Dela till valfri app, som iCloud, Dropbox, meddelandeappar och mer.</p>
+                        </div>
+                        <!-- PRO Feature Card 6 -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h4 class="text-lg font-semibold mb-2">Anpassade filnamn</h4>
+                            <p class="text-gray-600">Organisera dina filer bättre med egna, tydliga filnamn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section id="screenshots" class="py-16 sm:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Se appen i action</h2>
+                    <p class="section-subtitle">Utforska de kraftfulla och lättanvända funktionerna.</p>
+                </div>
+                <div class="flex overflow-x-auto space-x-4 sm:space-x-8 pb-4 -mx-6 px-6">
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="images/01.png" alt="Skärmdump av appens huvudvy" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="images/02.png" alt="Skärmdump som visar redigering" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="images/03.png" alt="Skärmdump som visar delningsalternativ" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="images/04.png" alt="Skärmdump av OCR-funktionen" class="rounded-xl shadow-lg">
+                    </div>
+                    <div class="flex-shrink-0 w-64 sm:w-72">
+                        <img src="images/05.png" alt="Skärmdump av dokumentsamling" class="rounded-xl shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="py-16 sm:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Ett enkelt och rättvist pris</h2>
+                    <p class="section-subtitle">Inga prenumerationer. Inga dolda kostnader. Någonsin.</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+                    <!-- Free Plan -->
+                    <div class="border border-gray-200 rounded-2xl p-8 flex flex-col">
+                        <h3 class="text-2xl font-semibold">Standard</h3>
+                        <p class="mt-4 text-gray-600">Alla grundläggande funktioner du behöver för att skanna och dela.</p>
+                        <p class="mt-6 text-4xl font-bold">Gratis</p>
+                        <ul class="mt-8 space-y-3 text-gray-600 flex-grow">
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Blixtsnabb skanning</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Bildredigering</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Dela via e-post</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Optimera för utskrift (A4)</li>
+                        </ul>
+                        <a href="https://apps.apple.com/se/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="mt-8 block w-full text-center bg-white border border-gray-300 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors">Ladda ner</a>
+                    </div>
+
+                    <!-- PRO Plan -->
+                    <div class="border-2 border-blue-600 rounded-2xl p-8 relative flex flex-col">
+                        <p class="absolute top-0 -translate-y-1/2 bg-blue-600 text-white px-3 py-1 text-sm font-semibold rounded-full">Mest populär</p>
+                        <h3 class="text-2xl font-semibold">PRO</h3>
+                        <p class="mt-4 text-gray-600">Lås upp alla avancerade funktioner för alltid.</p>
+                        <p class="mt-6 text-4xl font-bold">79 kr <span class="text-lg font-normal text-gray-500">/ engångsköp</span></p>
+                        <ul class="mt-8 space-y-3 text-gray-600 flex-grow">
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Allt i Standard, plus:</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Sökbara PDF:er (OCR)</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Lösenordsskydd</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Avancerad delning</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>...och mycket mer.</li>
+                        </ul>
+                        <a href="https://apps.apple.com/se/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="mt-8 block w-full btn-primary">Köp PRO-versionen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Section -->
+        <section id="privacy" class="py-16 sm:py-24">
+            <div class="container mx-auto px-6">
+                <div class="max-w-3xl mx-auto text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.286zm0 13.036h.008v.008h-.008v-.008z" />
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Din integritet är inte en funktion. <br>Det är grunden för hela appen.</h2>
+                    <p class="section-subtitle">
+                        All databehandling – från skanning till PDF-skapande – sker uteslutande lokalt på din iPhone. Vi samlar inte in, ser inte och lagrar aldrig dina dokument.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="bg-gray-900">
+            <div class="container mx-auto px-6 py-16 sm:py-24 text-center">
+                <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                    Redo att börja skanna?
+                </h2>
+                <p class="mt-4 text-lg leading-8 text-gray-300">
+                    Ladda ner Simple PDF Scanner idag och upplev skillnaden.
+                </p>
+                <div class="mt-10">
+                    <a href="https://apps.apple.com/se/app/simple-pdf-scanner-app/id6751097744?ct=simplepdfscanner.se" target="_blank" class="btn-primary text-lg">
+                        Hämta på App Store
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <p class="mb-4">&copy; 2025 MPKtec. Alla rättigheter förbehållna.</p>
+            <div class="space-x-4">
+                <button data-modal-open="#privacy-modal" class="hover:text-white transition-colors">Integritetspolicy</button>
+                <span>&middot;</span>
+                <button data-modal-open="#terms-modal" class="hover:text-white transition-colors">Användarvillkor</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-modal" class="modal hidden fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] flex flex-col">
+            <div class="p-4 sm:p-6 border-b flex justify-between items-center">
+                <h3 class="text-xl sm:text-2xl font-semibold">Integritetspolicy</h3>
+                <button data-modal-close class="text-gray-400 hover:text-gray-600 text-3xl leading-none font-bold">&times;</button>
+            </div>
+            <div class="p-4 sm:p-6 overflow-y-auto">
+                <h4 class="font-semibold text-lg mb-2">Grundläggande princip</h4>
+                <p class="mb-4">Din integritet är grunden för Simple PDF Scanner. All databehandling – från skanning till PDF-skapande – sker uteslutande lokalt på din iPhone. Vi samlar inte in, ser inte, och lagrar aldrig dina dokument eller personuppgifter.</p>
+                <h4 class="font-semibold text-lg mb-2">Ingen datainsamling</h4>
+                <p>Appen samlar inte in någon personligt identifierbar information, platsdata eller användningsstatistik. De dokument du skannar är dina och förblir på din enhet tills du väljer att dela dem.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms of Use Modal -->
+    <div id="terms-modal" class="modal hidden fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] flex flex-col">
+            <div class="p-4 sm:p-6 border-b flex justify-between items-center">
+                <h3 class="text-xl sm:text-2xl font-semibold">Användarvillkor</h3>
+                <button data-modal-close class="text-gray-400 hover:text-gray-600 text-3xl leading-none font-bold">&times;</button>
+            </div>
+            <div class="p-4 sm:p-6 overflow-y-auto">
+                <p>Här kan du lägga in dina fullständiga användarvillkor. Beskriv reglerna för att använda appen, ansvarsbegränsningar, information om PRO-köpet, etc.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
+            // Modal handling
+            const openModalButtons = document.querySelectorAll('[data-modal-open]');
+            const closeModalButtons = document.querySelectorAll('[data-modal-close]');
+
+            const openModal = (modal) => modal && modal.classList.remove('hidden');
+            const closeModal = (modal) => modal && modal.classList.add('hidden');
+
+            openModalButtons.forEach(button => button.addEventListener('click', () => openModal(document.querySelector(button.dataset.modalOpen))));
+            closeModalButtons.forEach(button => button.addEventListener('click', () => closeModal(button.closest('.modal'))));
+            document.addEventListener('keydown', e => e.key === 'Escape' && document.querySelectorAll('.modal:not(.hidden)').forEach(closeModal));
+        });
+    </script>
+
+</body>
+</html>
