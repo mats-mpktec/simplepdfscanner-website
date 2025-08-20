@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple PDF Scanner App – Snabb, privat & utan prenumeration</title>
     <meta name="description" content="Skanna dokument snabbt och enkelt med din iPhone. Allt sker lokalt på din enhet för total integritet. Säg nej till prenumerationer och datainsamling.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Simple PDF Scanner">
+    <meta property="og:url" content="https://simplepdfscanner.se/sv/">
+    <meta property="og:title" content="Simple PDF Scanner – Snabb, privat & utan prenumeration">
+    <meta property="og:description" content="Skanna dokument snabbt och enkelt med din iPhone. Allt sker lokalt på din enhet för total integritet. Säg nej till prenumerationer och datainsamling.">
+    <meta property="og:image" content="https://simplepdfscanner.se/images/og-image.jpg">
+    <meta property="og:image:secure_url" content="https://simplepdfscanner.se/images/og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Simple PDF Scanner App på en iPhone">
+    <meta property="og:locale" content="sv_SE">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://simplepdfscanner.se/sv/">
+    <meta name="twitter:title" content="Simple PDF Scanner – Snabb, privat & utan prenumeration">
+    <meta name="twitter:description" content="Skanna dokument snabbt och enkelt med din iPhone. Allt sker lokalt på din enhet för total integritet. Säg nej till prenumerationer och datainsamling.">
+    <meta name="twitter:image" content="https://simplepdfscanner.se/images/og-image.jpg">
+    <meta name="twitter:image:alt" content="Simple PDF Scanner App på en iPhone">
+    <meta name="twitter:site" content="@MPKTecAB">
+    <meta name="twitter:creator" content="@MPKTecAB">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://simplepdfscanner.se/sv/">
     
     <!-- SEO-taggar för flerspråkighet (byt ut domänen mot din egen när du publicerar) -->
     <link rel="alternate" hreflang="sv" href="https://simplepdfscanner.se/sv/" />
@@ -13,6 +41,33 @@
 
     <!-- Länk till din kompilerade CSS. Sökvägen är ändrad för att gå upp en nivå. -->
     <link href="../dist/output.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Simple PDF Scanner",
+      "operatingSystem": "iOS",
+      "applicationCategory": "ProductivityApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "SEK"
+      },
+      "url": "https://apps.apple.com/se/app/simple-pdf-scanner-app/id6751097744",
+      "author": {
+        "@type": "Organization",
+        "name": "MPK Tec AB",
+        "url": "https://mpktec.se"
+      }
+    }
+    </script>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -156,7 +211,8 @@
                     <h2 class="section-title">Se appen i action</h2>
                     <p class="section-subtitle">Utforska de kraftfulla och lättanvända funktionerna.</p>
                 </div>
-                <div class="flex overflow-x-auto space-x-4 sm:space-x-8 pb-4 -mx-6 px-6">
+                <!-- Mobil: Horisontell scroll -->
+                <div class="md:hidden flex overflow-x-auto space-x-4 sm:space-x-8 pb-4 -mx-6 px-6">
                     <div class="flex-shrink-0 w-64 sm:w-72">
                         <img src="../images/01.png" alt="Skärmdump av appens huvudvy" class="rounded-xl shadow-lg">
                     </div>
@@ -172,6 +228,14 @@
                     <div class="flex-shrink-0 w-64 sm:w-72">
                         <img src="../images/05.png" alt="Skärmdump av dokumentsamling" class="rounded-xl shadow-lg">
                     </div>
+                </div>
+                <!-- Desktop: Grid -->
+                <div class="hidden md:grid grid-cols-5 gap-8">
+                    <img src="../images/01.png" alt="Skärmdump av appens huvudvy" class="rounded-xl shadow-lg">
+                    <img src="../images/02.png" alt="Skärmdump som visar redigering" class="rounded-xl shadow-lg">
+                    <img src="../images/03.png" alt="Skärmdump som visar delningsalternativ" class="rounded-xl shadow-lg">
+                    <img src="../images/04.png" alt="Skärmdump av OCR-funktionen" class="rounded-xl shadow-lg">
+                    <img src="../images/05.png" alt="Skärmdump av dokumentsamling" class="rounded-xl shadow-lg">
                 </div>
             </div>
         </section>
@@ -279,7 +343,16 @@
                 <button data-modal-close class="text-gray-400 hover:text-gray-600 text-3xl leading-none font-bold">&times;</button>
             </div>
             <div class="p-4 sm:p-6 overflow-y-auto">
-                <p>Här kan du lägga in dina fullständiga användarvillkor. Beskriv reglerna för att använda appen, ansvarsbegränsningar, information om PRO-köpet, etc.</p>
+                <p class="mb-4 text-sm text-gray-500">Senast uppdaterad: 20 augusti 2025</p>
+
+                <h4 class="font-semibold text-lg mb-2 mt-4">1. Ansvarsfriskrivning</h4>
+                <p class="mb-4 text-gray-700">Applikationen "Simple PDF Scanner" tillhandahålls "i befintligt skick" utan några uttryckliga eller underförstådda garantier. MPK Tec AB garanterar inte att appen kommer att vara fri från fel, avbrott eller dataförlust.</p>
+
+                <h4 class="font-semibold text-lg mb-2 mt-4">2. Ansvarsbegränsning</h4>
+                <p class="mb-4 text-gray-700">Under inga omständigheter ska MPK Tec AB hållas ansvarigt för någon direkt, indirekt, tillfällig eller följdskada, inklusive men inte begränsat till, förlust av data eller vinst, som uppstår från användningen av eller oförmågan att använda denna applikation.</p>
+
+                <h4 class="font-semibold text-lg mb-2 mt-4">3. PRO-version</h4>
+                <p class="mb-4 text-gray-700">Köpet av PRO-versionen är ett engångsköp som låser upp ytterligare funktioner som beskrivs i appen. Köpet är slutgiltigt och hanteras via Apples App Store och är föremål för deras villkor.</p>
             </div>
         </div>
     </div>
