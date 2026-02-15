@@ -2,32 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- English Page -->
   <url>
-    <loc>https://simplepdfscanner.se/en/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <xhtml:link 
-               rel="alternate"
-               hreflang="en"
-               href="https://simplepdfscanner.se/en/"/>
-    <xhtml:link 
-               rel="alternate"
-               hreflang="sv"
-               href="https://simplepdfscanner.se/sv/"/>
+    <loc>https://simplepdfscanner.se/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://simplepdfscanner.se/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://simplepdfscanner.se/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://simplepdfscanner.se/"/>
   </url>
 
-  <!-- Swedish Page -->
   <url>
     <loc>https://simplepdfscanner.se/sv/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <xhtml:link 
-               rel="alternate"
-               hreflang="sv"
-               href="https://simplepdfscanner.se/sv/"/>
-    <xhtml:link 
-               rel="alternate"
-               hreflang="en"
-               href="https://simplepdfscanner.se/en/"/>
+    <lastmod>2026-02-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://simplepdfscanner.se/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://simplepdfscanner.se/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://simplepdfscanner.se/"/>
   </url>
 
 </urlset>

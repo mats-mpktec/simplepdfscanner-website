@@ -20,3 +20,6 @@ Thumbs.db
 # Filer och mappar från kodredigerare (VS Code, JetBrains etc.)
 .vscode/
 .idea/
+
+# Originalbilder (arbetsmaterial, ej för publicering)
+/images/original/
