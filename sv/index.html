@@ -96,7 +96,7 @@
                 <a href="https://apps.apple.com/app/id6751097744?ct=simplepdfscanner.se" target="_blank" rel="noopener noreferrer" class="btn-primary text-sm py-2 px-4">Ladda ner</a>
             </div>
             <div class="md:hidden">
-                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none" aria-label="Öppna huvudmenyn" aria-controls="mobile-menu" aria-expanded="false">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
                 </button>
             </div>
@@ -330,7 +330,7 @@
     <footer class="bg-gray-800 text-white">
         <div class="container mx-auto px-6 py-8 text-center text-gray-400">
             <p class="mb-4">&copy; 2026 <a href="https://mpktec.se" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">MPK Tec AB</a>. Alla rättigheter förbehållna.</p>
-            <p class="mb-4 text-sm text-gray-500">Senast uppdaterad: 15 februari 2026</p>
+            <p class="mb-4 text-sm text-gray-300">Senast uppdaterad: 15 februari 2026</p>
             <div class="space-x-4">
                 <a href="https://mpktec.se/privacy/simplepdfscanner-sv/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Integritetspolicy</a>
                 <span>&middot;</span>
@@ -376,11 +376,14 @@
             // Mobile menu toggle
             const mobileMenuButton = document.getElementById('mobile-menu-button');
             const mobileMenu = document.getElementById('mobile-menu');
-            if (mobileMenuButton && mobileMenu) {
-                mobileMenuButton.addEventListener('click', () => {
-                    mobileMenu.classList.toggle('hidden');
-                });
-            }
+                if (mobileMenuButton && mobileMenu) {
+                    mobileMenuButton.addEventListener('click', () => {
+                        mobileMenu.classList.toggle('hidden');
+                        const isExpanded = !mobileMenu.classList.contains('hidden');
+                        mobileMenuButton.setAttribute('aria-expanded', String(isExpanded));
+                        mobileMenuButton.setAttribute('aria-label', isExpanded ? 'Stäng huvudmenyn' : 'Öppna huvudmenyn');
+                    });
+                }
 
             // Modal handling
             const openModalButtons = document.querySelectorAll('[data-modal-open]');
