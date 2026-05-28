@@ -23,3 +23,6 @@ Thumbs.db
 
 # Originalbilder (arbetsmaterial, ej för publicering)
 /images/original/
+
+# Lokala granskningar
+/seo-ai-audit.md

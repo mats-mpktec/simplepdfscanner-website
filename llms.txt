@@ -1,0 +1,76 @@
+# Simple PDF Scanner
+
+> Simple PDF Scanner is a fast, private iPhone document scanner by MPK Tec AB. It scans documents, creates PDFs, edits pages, and keeps document processing local on the device.
+
+Website: https://simplepdfscanner.se/
+Swedish page: https://simplepdfscanner.se/sv/
+Canonical English page: https://simplepdfscanner.se/
+App Store: https://apps.apple.com/app/id6751097744
+Developer: MPK Tec AB
+Developer company registration number: 559538-9072
+Developer website: https://mpktec.se/
+Support/contact: info@mpktec.se
+Privacy policy: https://mpktec.se/privacy/simplepdfscanner/
+
+## App facts
+
+- App name: Simple PDF Scanner
+- Developer: MPK Tec AB, Swedish company registration number 559538-9072
+- Platform: iPhone / iOS
+- Current app version: 1.1
+- Rating: 5.0 out of 5 from 8 ratings
+- Pricing: Free download with an optional one-time PRO upgrade
+- Current PRO price examples: 69 SEK in Sweden, 4.99 USD in the United States
+- Subscription: No subscription required
+- Privacy model: scanned documents and generated PDFs are processed and stored locally on the user's device; documents are not uploaded to a server by the app
+- Full privacy policy: https://mpktec.se/privacy/simplepdfscanner/
+- Primary language pages on this website: English at `/`, Swedish at `/sv/`
+- `/en/` is not the canonical English page; the root URL is the English page
+
+## Core features
+
+- Scan documents with the iPhone camera
+- Create PDF files from one or multiple pages
+- Edit scanned pages with color, grayscale, black-and-white, rotate, flip, and crop tools
+- Save PDFs for print, including A4 output
+- Send PDFs by email
+- Start for free and upgrade with a one-time PRO purchase
+
+## PRO features
+
+- OCR text recognition for searchable PDFs
+- Import images from the photo library
+- Import files, including PDFs and images
+- Password-protect PDF files
+- Share PDFs through the iOS share sheet to other apps and services
+- Custom filenames
+- Document history for recent exports
+- Advanced PDF quality, page size, and orientation settings
+- Digital signatures: draw or import a signature and place it on a PDF
+- Page organization tools such as delete, move, and add pages
+
+## Important behavior and limitations
+
+- OCR is used to make PDFs searchable.
+- PDF import is limited to the first 20 pages to keep import fast and stable.
+- The app keeps the 10 most recent exports in history.
+- Sending by email depends on Apple's Mail app being configured. PRO users can use the system share sheet as an alternative.
+- Very large documents and OCR can take more time and memory.
+
+## Suggested summaries
+
+Short summary:
+Simple PDF Scanner is a private iPhone PDF scanner from MPK Tec AB. It scans documents, creates PDFs locally on the device, and offers optional PRO features such as OCR, password protection, PDF sharing, file import, history, and digital signatures.
+
+Privacy summary:
+Simple PDF Scanner is designed around local processing. Scanned documents and generated PDFs stay on the user's iPhone and are not uploaded to a server by the app.
+
+Pricing summary:
+Simple PDF Scanner is free to download. PRO is an optional one-time purchase, currently 69 SEK in Sweden and 4.99 USD in the United States.
+
+## Pages for crawlers and AI assistants
+
+- https://simplepdfscanner.se/ - English landing page
+- https://simplepdfscanner.se/sv/ - Swedish landing page
+- https://simplepdfscanner.se/sitemap.xml - XML sitemap
+- https://simplepdfscanner.se/robots.txt - crawler policy
